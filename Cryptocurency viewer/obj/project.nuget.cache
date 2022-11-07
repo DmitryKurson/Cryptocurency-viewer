@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ugdRfmuoIfilEoKa2LwZINMSx8+BoAEAH2MZckuTV81mBWIC4dNFgRwZnuYyluO4W12UOOaBaMiS2rhQ0VW/Sw==",
+  "dgSpecHash": "oAKXJlRYW2zu+ik5enwF3mM1aIsbtbqrmmHq0cmT3Xr3Bf029GnR4NtQnoyZxmyImI8c1hZRIxi1BdGZrphc6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dmitry\\source\\repos\\Cryptocurency viewer\\Cryptocurency viewer\\Cryptocurency viewer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dmitry\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Dmitry\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512",
+    "C:\\Users\\Dmitry\\.nuget\\packages\\restsharp.serializers.newtonsoftjson\\108.0.2\\restsharp.serializers.newtonsoftjson.108.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

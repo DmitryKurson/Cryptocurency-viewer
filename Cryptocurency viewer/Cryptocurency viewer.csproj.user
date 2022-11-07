@@ -7,27 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Model\Exchanges.xaml.cs">
+    <Compile Update="Model\AssetsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Model\ExchangesWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Model\MarketWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Model\AssetsWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Model\Exchanges.xaml">
+    <Page Update="Model\AssetsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Model\ExchangesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Model\MarketWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Model\AssetsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

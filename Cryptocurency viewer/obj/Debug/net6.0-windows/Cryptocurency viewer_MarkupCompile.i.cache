@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\App.xaml
-4-1387495719
+4-97063239
 
-14906450227
-194618410957
-MainWindow.xaml;Model\AssetsWindow.xaml;Model\Exchanges.xaml;Model\MarketWindow.xaml;
+14-1020210225
+197-1008307413
+MainWindow.xaml;Model\AssetsWindow.xaml;Model\ExchangesWindow.xaml;Model\MarketWindow.xaml;
 
-True
+False
 

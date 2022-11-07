@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Cryptocurency_viewer.Model
+namespace Cryptocurency_viewer
 {
     /// <summary>
     /// Interaction logic for AssetsWindow.xaml

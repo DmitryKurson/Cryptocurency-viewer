@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Cryptocurency_viewer.Data
 {
-    internal class Assets
+    class Assets
     {
+        
+
+       
     }
 }
