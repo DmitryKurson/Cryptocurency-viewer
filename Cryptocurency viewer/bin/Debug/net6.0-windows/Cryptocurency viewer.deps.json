@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Cryptocurency viewer/1.0.0": {
+        "runtime": {
+          "Cryptocurency viewer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cryptocurency viewer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

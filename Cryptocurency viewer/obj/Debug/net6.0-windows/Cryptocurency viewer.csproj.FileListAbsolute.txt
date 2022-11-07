@@ -1,0 +1,21 @@
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\bin\Debug\net6.0-windows\Cryptocurency viewer.exe
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\bin\Debug\net6.0-windows\Cryptocurency viewer.deps.json
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\bin\Debug\net6.0-windows\Cryptocurency viewer.runtimeconfig.json
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\bin\Debug\net6.0-windows\Cryptocurency viewer.dll
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\bin\Debug\net6.0-windows\Cryptocurency viewer.pdb
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer_MarkupCompile.cache
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer_MarkupCompile.lref
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.g.resources
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.AssemblyInfoInputs.cache
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.AssemblyInfo.cs
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.dll
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\refint\Cryptocurency viewer.dll
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.pdb
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.genruntimeconfig.cache
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\ref\Cryptocurency viewer.dll
