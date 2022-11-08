@@ -29,3 +29,5 @@ C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug
 C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\Cryptocurency viewer.csproj.CopyComplete
 C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\ExitSureWindow.g.cs
+C:\Users\Dmitry\source\repos\Cryptocurency viewer\Cryptocurency viewer\obj\Debug\net6.0-windows\ExitSureWindow.baml
