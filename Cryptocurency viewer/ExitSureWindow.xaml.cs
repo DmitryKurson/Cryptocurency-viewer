@@ -15,14 +15,38 @@ using System.Windows.Shapes;
 namespace Cryptocurency_viewer
 {
     /// <summary>
-    /// Interaction logic for ExitSureWindow.xaml
+    /// Interaction logic for ExitSure.xaml
     /// </summary>
-    public partial class ExitSureWindow : Window
+    public partial class ExitSure : Window
     {
-        public ExitSureWindow()
+        public ExitSure(string theme)
         {
             InitializeComponent();
-            
+            if (theme == "light")
+            {
+                exit_sure_main_panel.Background = Brushes.White;
+                yes_btn.Background = Brushes.White;
+                no_btn.Background = Brushes.White;
+                main_lbl.Background = Brushes.White;                
+            }
+            else if (theme == "dark")
+            {
+                exit_sure_main_panel.Background = Brushes.DarkGray;
+                yes_btn.Background = Brushes.DarkGray;
+                no_btn.Background = Brushes.DarkGray;
+                main_lbl.Background = Brushes.DarkGray;
+            }
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }
+
+        private void yes_btn_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void no_btn_Click(object sender, RoutedEventArgs e)
+        {
+            Hide();
         }
     }
 }

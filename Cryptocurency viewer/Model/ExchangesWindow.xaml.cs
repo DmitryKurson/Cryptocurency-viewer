@@ -20,9 +20,23 @@ namespace Cryptocurency_viewer
     /// </summary>
     public partial class ExchangesWindow : Window
     {
-        public ExchangesWindow()
+        public ExchangesWindow(string theme)
         {
             InitializeComponent();
+            if (theme == "dark")
+            {
+                exchange_window.Background = Brushes.DarkGray;
+                EW_filter_lbl.Background = Brushes.DarkGray;
+                EW_textbox.Background = Brushes.DarkGray;
+                EW_datagrid.Background = Brushes.DarkGray;
+            }
+            else if (theme == "light")
+            {
+                exchange_window.Background = Brushes.White;
+                EW_filter_lbl.Background = Brushes.White;
+                EW_textbox.Background = Brushes.White;
+                EW_datagrid.Background = Brushes.White;
+            }
             Loaded += ExchangesWindow_Loaded;
         }
 

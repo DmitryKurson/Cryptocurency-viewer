@@ -20,9 +20,23 @@ namespace Cryptocurency_viewer
     /// </summary>
     public partial class AssetsWindow : Window
     {
-        public AssetsWindow()
+        public AssetsWindow(string theme)
         {
             InitializeComponent();
+            if (theme == "dark")
+            {
+                assets_window.Background = Brushes.DarkGray;
+                AW_filter_lbl.Background = Brushes.DarkGray;
+                AW_textbox.Background = Brushes.DarkGray;   
+                AW_datagrid.Background = Brushes.DarkGray;
+            }
+            else if (theme == "light")
+            {
+                assets_window.Background = Brushes.White;
+                AW_filter_lbl.Background = Brushes.White;
+                AW_textbox.Background = Brushes.White;
+                AW_datagrid.Background = Brushes.White;
+            }            
             Loaded += AssetsWindow_Loaded;
         }
         private void AssetsWindow_Loaded(object sender, RoutedEventArgs e)

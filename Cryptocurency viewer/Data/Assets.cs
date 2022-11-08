@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-using RestSharp;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,7 +31,6 @@ namespace Cryptocurency_viewer.Data
             {
                 string rawResponse = response.Content;
                 Rootobject result = JsonConvert.DeserializeObject<Rootobject>(rawResponse);
-
                 return result.assets;
             }
             else
@@ -41,5 +38,7 @@ namespace Cryptocurency_viewer.Data
                 return null;
             }
         }
+
+
     }
 }

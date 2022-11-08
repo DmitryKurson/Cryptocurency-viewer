@@ -33,7 +33,7 @@
         <Button x:Name="assets_btn" Content="Assets" Grid.Column="1" Grid.Row="3" FontSize="40" Click="assets_btn_Click"/>
         <Button x:Name="exchanges_btn" Content="Exchanges" Grid.Column="3" Grid.Row="3" FontSize="40" Click="exchanges_btn_Click"/>
         <Button x:Name="markets_btn" Content="Markets" Grid.Column="5" Grid.Row="3" FontSize="40" Click="markets_btn_Click"/>
-        <Button x:Name="change_color_theme_btn" Content="Color theme" Grid.Column="3" Grid.Row="5" FontSize="40"/>
+        <Button x:Name="change_color_theme_btn" Content="Color theme" Grid.Column="3" Grid.Row="5" FontSize="40" Click="change_color_theme_btn_Click"/>
         <Button x:Name="exit_btn" Content="Exit" Grid.Column="3" Grid.Row="7" FontSize="40" Click="exit_btn_Click"/>
         <Label x:Name="main_lbl" Content= "Cryptocurency viewer 2022. A Digital Cloud Technologies test project" Grid.Row="1" FontSize="40" Grid.ColumnSpan="7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
     </Grid>

@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cryptocurency_viewer"
         mc:Ignorable="d"
-        Title="MarketWindow" Height="450" Width="800">
+        Title="Market" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="market_window" Orientation="Horizontal">
+            <TextBlock x:Name="MW_filter_lbl" Text="Filter:" Margin ="5"/>
+            <TextBox x:Name="MW_textbox" Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>
+        </StackPanel>
+        <DataGrid x:Name="MW_datagrid" Grid.Row="1" Margin="5" ItemsSource="{Binding MarketItems}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Exchange id" Binding="{Binding exchange_id}"/>
+                <DataGridTextColumn Header="Symbol" Binding="{Binding symbol}"/>
+                <DataGridTextColumn Header="Base asset" Binding="{Binding base_asset}"/>
+                <DataGridTextColumn Header="Quote asset" Binding="{Binding quote_asset}"/>
+                <DataGridTextColumn Header="Price uncoverted" Binding="{Binding price_unconverted}"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding price}"/>
+                <DataGridTextColumn Header="Change 24h" Binding="{Binding change_24h}"/>
+                <DataGridTextColumn Header="Spread" Binding="{Binding spread}"/>
+                <DataGridTextColumn Header="Volume 24h" Binding="{Binding volume_24h}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding status}"/>
+                <DataGridTextColumn Header="Created at" Binding="{Binding created_at}"/>
+                <DataGridTextColumn Header="Updated at" Binding="{Binding updated_at}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

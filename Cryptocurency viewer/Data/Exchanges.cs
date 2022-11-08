@@ -24,7 +24,6 @@ namespace Cryptocurency_viewer.Data
             {
                 string rawResponse = response.Content;
                 Rootobject result = JsonConvert.DeserializeObject<Rootobject>(rawResponse);
-
                 return result.exchanges;
             }
             else
@@ -32,5 +31,7 @@ namespace Cryptocurency_viewer.Data
                 return null;
             }
         }
+
+
     }
 }

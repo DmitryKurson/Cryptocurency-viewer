@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cryptocurency_viewer.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,29 @@ namespace Cryptocurency_viewer
     /// </summary>
     public partial class MarketWindow : Window
     {
-        public MarketWindow()
+        public MarketWindow(string theme)
         {
             InitializeComponent();
+            if (theme == "dark")
+            {
+                market_window.Background = Brushes.DarkGray;
+                MW_filter_lbl.Background = Brushes.DarkGray;
+                MW_textbox.Background = Brushes.DarkGray;
+                MW_datagrid.Background = Brushes.DarkGray;
+            }
+            else if (theme == "light")
+            {
+                market_window.Background = Brushes.White;
+                MW_filter_lbl.Background = Brushes.White;
+                MW_textbox.Background = Brushes.White;
+                MW_datagrid.Background = Brushes.White;
+            }
+            Loaded += MarketWindow_Loaded;
+        }
+
+        private void MarketWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            DataContext = new MarketViewModel();
         }
     }
 }

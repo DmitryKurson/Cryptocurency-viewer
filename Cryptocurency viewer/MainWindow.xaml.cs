@@ -21,8 +21,10 @@ namespace Cryptocurency_viewer
     /// </summary>
     public partial class MainWindow : Window
     {
+        string theme = "light";
         public MainWindow()
         {
+            
             InitializeComponent();
             WindowState = WindowState.Maximized;
             WindowStyle = WindowStyle.None;
@@ -36,26 +38,52 @@ namespace Cryptocurency_viewer
 
         private void assets_btn_Click(object sender, RoutedEventArgs e)
         {
-            AssetsWindow assetswindow_obj = new AssetsWindow();
+            AssetsWindow assetswindow_obj = new AssetsWindow(theme);
             assetswindow_obj.ShowDialog();
         }
 
         private void exchanges_btn_Click(object sender, RoutedEventArgs e)
         {
-            ExchangesWindow exchangeswindow_obj = new ExchangesWindow();
+            ExchangesWindow exchangeswindow_obj = new ExchangesWindow(theme);
             exchangeswindow_obj.ShowDialog();
         }
 
         private void markets_btn_Click(object sender, RoutedEventArgs e)
         {
-            MarketWindow marketwindow_obj = new MarketWindow();
+            MarketWindow marketwindow_obj = new MarketWindow(theme);
             marketwindow_obj.ShowDialog();
         }
 
         private void exit_btn_Click(object sender, RoutedEventArgs e)
         {
+            ExitSure exit_sure_obj = new ExitSure(theme);
+            exit_sure_obj.ShowDialog();
             //AssetsWindow assetswindow_obj = new AssetsWindow();
             //assetswindow_obj.ShowDialog();
+        }
+
+        private void change_color_theme_btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (theme == "light")
+            {
+                theme = "dark";
+                MainWindowGrid.Background = Brushes.DarkGray;
+                assets_btn.Background = Brushes.DarkGray;
+                exchanges_btn.Background = Brushes.DarkGray;
+                markets_btn.Background = Brushes.DarkGray;
+                change_color_theme_btn.Background = Brushes.DarkGray;
+                exit_btn.Background = Brushes.DarkGray;
+            }
+            else if (theme == "dark")
+            {
+                theme = "light";
+                MainWindowGrid.Background = Brushes.White;
+                assets_btn.Background = Brushes.White;
+                exchanges_btn.Background = Brushes.White;
+                markets_btn.Background = Brushes.White;
+                change_color_theme_btn.Background = Brushes.White;
+                exit_btn.Background = Brushes.White;
+            }
         }
     }
 }

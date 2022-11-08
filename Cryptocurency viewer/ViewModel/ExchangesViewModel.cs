@@ -43,7 +43,6 @@ namespace Cryptocurency_viewer.ViewModel
             ExchangesItems = CollectionViewSource.GetDefaultView(Exchanges.GetExchanges());
             ExchangesItems.Filter = FilterExchanges;
         }
-
         private bool FilterExchanges(object obj)
         {
             bool result = true;

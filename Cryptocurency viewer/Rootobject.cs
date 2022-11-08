@@ -9,8 +9,8 @@ namespace Cryptocurency_viewer
 {
     public class Rootobject
     {
+        public Market[] markets { get; set; }
         public Exchanges[] exchanges { get; set; }
-        public Assets[] assets { get; set; }
-        public Market[] market { get; set; }
+        public Assets[] assets { get; set; }       
     }
 }
