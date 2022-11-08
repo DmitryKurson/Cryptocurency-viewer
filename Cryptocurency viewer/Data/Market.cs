@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Cryptocurency_viewer.Data
 {
-    internal class Market
+    public class Market
     {
+
     }
 }

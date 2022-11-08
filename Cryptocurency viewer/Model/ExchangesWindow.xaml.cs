@@ -23,7 +23,7 @@ namespace Cryptocurency_viewer
         public ExchangesWindow()
         {
             InitializeComponent();
-            Loaded += ExchangesWindow_Loaded; ;
+            Loaded += ExchangesWindow_Loaded;
         }
 
         private void ExchangesWindow_Loaded(object sender, RoutedEventArgs e)

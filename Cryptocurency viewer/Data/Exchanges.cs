@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Cryptocurency_viewer.Data
 {
-    class Exchanges
+    public class Exchanges
     {
         public string exchange_id { get; set; }
         public string name { get; set; }
@@ -16,7 +16,7 @@ namespace Cryptocurency_viewer.Data
         public string volume_24h { get; set; }
 
         public static Exchanges[] GetExchanges()
-        {          
+        {
             var client = new RestClient("https://cryptingup.com/api/");
             var request = new RestRequest("exchanges");
             var response = client.Execute(request);
@@ -31,11 +31,6 @@ namespace Cryptocurency_viewer.Data
             {
                 return null;
             }
-        }
-
-        public class Rootobject
-        {
-            public Exchanges[] exchanges { get; set; }
         }
     }
 }

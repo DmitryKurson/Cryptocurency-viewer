@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cryptocurency_viewer.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,11 @@ namespace Cryptocurency_viewer
         public AssetsWindow()
         {
             InitializeComponent();
+            Loaded += AssetsWindow_Loaded;
+        }
+        private void AssetsWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            DataContext = new AssetsViewModel();
         }
     }
 }

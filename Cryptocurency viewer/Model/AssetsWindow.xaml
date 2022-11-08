@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="AssetsWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="assets_window" Orientation="Horizontal">
+            <TextBlock x:Name="AW_filter_lbl" Text="Filter:" Margin ="5"/>
+            <TextBox x:Name="AW_textbox" Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>
+        </StackPanel>
+        <DataGrid x:Name="AW_datagrid" Grid.Row="1" Margin="5" ItemsSource="{Binding AssetsItems}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Assets id" Binding="{Binding asset_id}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding name}"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding price}"/>
+                <DataGridTextColumn Header="Volume 24h" Binding="{Binding volume_24h}"/>
+                <DataGridTextColumn Header="Change 1h" Binding="{Binding change_1h}"/>
+                <DataGridTextColumn Header="Change 24h" Binding="{Binding change_24h}"/>
+                <DataGridTextColumn Header="Change 7d" Binding="{Binding change_7d}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding status}"/>
+                <DataGridTextColumn Header="Created at" Binding="{Binding created_at}"/>
+                <DataGridTextColumn Header="Updated at" Binding="{Binding updated_at}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
