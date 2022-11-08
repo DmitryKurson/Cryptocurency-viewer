@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="Exchanges" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="exchange_window" Orientation="Horizontal">
+            <TextBlock x:Name="EW_filter_lbl" Text="Filter:" Margin ="5"/>
+            <TextBox x:Name="EW_textbox" Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>  
+        </StackPanel>
+        <DataGrid x:Name="EW_datagrid" Grid.Row="1" Margin="5" ItemsSource="{Binding ExchangesItems}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Exchange id" Binding="{Binding exchange_id}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding name}"/>
+                <DataGridTextColumn Header="Website" Binding="{Binding website}"/>
+                <DataGridTextColumn Header="Volume 24h" Binding="{Binding volume_24h}"/>
+            </DataGrid.Columns>                
+        </DataGrid>
     </Grid>
 </Window>
